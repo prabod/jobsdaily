@@ -1,0 +1,1826 @@
+{
+    "code": "Ok",
+    "routes": [
+        {
+            "legs": [
+                {
+                    "steps": [
+                        {
+                            "intersections": [
+                                {
+                                    "out": 0,
+                                    "entry": [
+                                        true
+                                    ],
+                                    "bearings": [
+                                        43
+                                    ],
+                                    "location": [
+                                        103.8602,
+                                        1.382837
+                                    ]
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.8602,
+                                        1.382837
+                                    ],
+                                    [
+                                        103.860773,
+                                        1.383447
+                                    ],
+                                    [
+                                        103.86098,
+                                        1.383328
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 17.3,
+                            "maneuver": {
+                                "bearing_after": 43,
+                                "type": "depart",
+                                "modifier": "right",
+                                "bearing_before": 0,
+                                "location": [
+                                    103.8602,
+                                    1.382837
+                                ]
+                            },
+                            "weight": 17.3,
+                            "distance": 119.6,
+                            "name": "Mimosa Vale"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "lanes": [
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.86098,
+                                        1.383328
+                                    ],
+                                    "bearings": [
+                                        120,
+                                        300
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.86098,
+                                        1.383328
+                                    ],
+                                    [
+                                        103.861157,
+                                        1.383199
+                                    ],
+                                    [
+                                        103.861286,
+                                        1.383042
+                                    ],
+                                    [
+                                        103.8613,
+                                        1.383016
+                                    ],
+                                    [
+                                        103.861307,
+                                        1.383
+                                    ],
+                                    [
+                                        103.861311,
+                                        1.382983
+                                    ],
+                                    [
+                                        103.861328,
+                                        1.382803
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 12,
+                            "maneuver": {
+                                "bearing_after": 125,
+                                "type": "new name",
+                                "modifier": "straight",
+                                "bearing_before": 119,
+                                "location": [
+                                    103.86098,
+                                    1.383328
+                                ]
+                            },
+                            "weight": 12,
+                            "distance": 74.2,
+                            "name": "Mimosa Walk"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "out": 1,
+                                    "location": [
+                                        103.861328,
+                                        1.382803
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        120,
+                                        240
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true
+                                    ],
+                                    "in": 0
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.861717,
+                                        1.382674
+                                    ],
+                                    "bearings": [
+                                        60,
+                                        195,
+                                        270
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.861328,
+                                        1.382803
+                                    ],
+                                    [
+                                        103.861534,
+                                        1.382694
+                                    ],
+                                    [
+                                        103.861717,
+                                        1.382674
+                                    ],
+                                    [
+                                        103.86189,
+                                        1.382764
+                                    ],
+                                    [
+                                        103.862165,
+                                        1.382923
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 20.1,
+                            "maneuver": {
+                                "bearing_after": 116,
+                                "type": "continue",
+                                "modifier": "left",
+                                "bearing_before": 174,
+                                "location": [
+                                    103.861328,
+                                    1.382803
+                                ]
+                            },
+                            "weight": 20.1,
+                            "distance": 103.4,
+                            "name": "Mimosa Walk"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "out": 3,
+                                    "location": [
+                                        103.862165,
+                                        1.382923
+                                    ],
+                                    "bearings": [
+                                        60,
+                                        150,
+                                        240,
+                                        330
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.861706,
+                                        1.384132
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        90,
+                                        165,
+                                        255
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.86163,
+                                        1.384716
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        180,
+                                        270
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.861568,
+                                        1.385256
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        75,
+                                        180,
+                                        270
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 2
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.862165,
+                                        1.382923
+                                    ],
+                                    [
+                                        103.861957,
+                                        1.383317
+                                    ],
+                                    [
+                                        103.861706,
+                                        1.384132
+                                    ],
+                                    [
+                                        103.86163,
+                                        1.384716
+                                    ],
+                                    [
+                                        103.861568,
+                                        1.385256
+                                    ],
+                                    [
+                                        103.861497,
+                                        1.385909
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 51,
+                            "maneuver": {
+                                "bearing_after": 331,
+                                "type": "turn",
+                                "modifier": "left",
+                                "bearing_before": 59,
+                                "location": [
+                                    103.862165,
+                                    1.382923
+                                ]
+                            },
+                            "weight": 51,
+                            "distance": 343.4,
+                            "name": "Mimosa Road"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.861497,
+                                        1.385909
+                                    ],
+                                    "bearings": [
+                                        75,
+                                        180,
+                                        255
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.861497,
+                                        1.385909
+                                    ],
+                                    [
+                                        103.861829,
+                                        1.385974
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 7.7,
+                            "maneuver": {
+                                "bearing_after": 78,
+                                "type": "end of road",
+                                "modifier": "right",
+                                "bearing_before": 352,
+                                "location": [
+                                    103.861497,
+                                    1.385909
+                                ]
+                            },
+                            "weight": 7.7,
+                            "distance": 37.6,
+                            "name": "Saraca Road"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "lanes": [
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight",
+                                                "left"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.861829,
+                                        1.385974
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        90,
+                                        255
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "lanes": [
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight",
+                                                "left"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.861856,
+                                        1.386319
+                                    ],
+                                    "bearings": [
+                                        30,
+                                        180,
+                                        270
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                },
+                                {
+                                    "lanes": [
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight",
+                                                "left"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.862008,
+                                        1.386561
+                                    ],
+                                    "bearings": [
+                                        30,
+                                        210,
+                                        315
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.862361,
+                                        1.387137
+                                    ],
+                                    "bearings": [
+                                        30,
+                                        120,
+                                        210,
+                                        300
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.862876,
+                                        1.388042
+                                    ],
+                                    "bearings": [
+                                        30,
+                                        210,
+                                        315
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.863299,
+                                        1.388764
+                                    ],
+                                    "bearings": [
+                                        45,
+                                        105,
+                                        210
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.863537,
+                                        1.389038
+                                    ],
+                                    "bearings": [
+                                        45,
+                                        225,
+                                        285
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.861829,
+                                        1.385974
+                                    ],
+                                    [
+                                        103.86182,
+                                        1.386155
+                                    ],
+                                    [
+                                        103.861826,
+                                        1.386242
+                                    ],
+                                    [
+                                        103.861856,
+                                        1.386319
+                                    ],
+                                    [
+                                        103.862008,
+                                        1.386561
+                                    ],
+                                    [
+                                        103.862183,
+                                        1.386843
+                                    ],
+                                    [
+                                        103.862361,
+                                        1.387137
+                                    ],
+                                    [
+                                        103.862495,
+                                        1.387367
+                                    ],
+                                    [
+                                        103.862876,
+                                        1.388042
+                                    ],
+                                    [
+                                        103.863028,
+                                        1.388318
+                                    ],
+                                    [
+                                        103.863126,
+                                        1.388479
+                                    ],
+                                    [
+                                        103.863211,
+                                        1.38864
+                                    ],
+                                    [
+                                        103.863299,
+                                        1.388764
+                                    ],
+                                    [
+                                        103.863409,
+                                        1.3889
+                                    ],
+                                    [
+                                        103.863537,
+                                        1.389038
+                                    ],
+                                    [
+                                        103.863726,
+                                        1.38926
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 38.8,
+                            "maneuver": {
+                                "bearing_after": 355,
+                                "type": "turn",
+                                "modifier": "left",
+                                "bearing_before": 78,
+                                "location": [
+                                    103.861829,
+                                    1.385974
+                                ]
+                            },
+                            "weight": 38.8,
+                            "distance": 427.8,
+                            "name": "Begonia Road"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "out": 0,
+                                    "location": [
+                                        103.863726,
+                                        1.38926
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        45,
+                                        225
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.863726,
+                                        1.38926
+                                    ],
+                                    [
+                                        103.863732,
+                                        1.389372
+                                    ],
+                                    [
+                                        103.863727,
+                                        1.389427
+                                    ],
+                                    [
+                                        103.863719,
+                                        1.389454
+                                    ],
+                                    [
+                                        103.863685,
+                                        1.389498
+                                    ],
+                                    [
+                                        103.863597,
+                                        1.38958
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 3.9,
+                            "maneuver": {
+                                "bearing_after": 4,
+                                "type": "turn",
+                                "modifier": "slight left",
+                                "bearing_before": 39,
+                                "location": [
+                                    103.863726,
+                                    1.38926
+                                ]
+                            },
+                            "weight": 3.9,
+                            "distance": 41.3,
+                            "name": ""
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "out": 2,
+                                    "location": [
+                                        103.863597,
+                                        1.38958
+                                    ],
+                                    "bearings": [
+                                        105,
+                                        135,
+                                        285
+                                    ],
+                                    "entry": [
+                                        false,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                },
+                                {
+                                    "out": 3,
+                                    "location": [
+                                        103.860577,
+                                        1.390405
+                                    ],
+                                    "bearings": [
+                                        75,
+                                        105,
+                                        195,
+                                        285,
+                                        330
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.863597,
+                                        1.38958
+                                    ],
+                                    [
+                                        103.863464,
+                                        1.389613
+                                    ],
+                                    [
+                                        103.860806,
+                                        1.390342
+                                    ],
+                                    [
+                                        103.860577,
+                                        1.390405
+                                    ],
+                                    [
+                                        103.860366,
+                                        1.390461
+                                    ],
+                                    [
+                                        103.859641,
+                                        1.390665
+                                    ],
+                                    [
+                                        103.859479,
+                                        1.39071
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 37.6,
+                            "maneuver": {
+                                "bearing_after": 284,
+                                "type": "turn",
+                                "modifier": "straight",
+                                "bearing_before": 312,
+                                "location": [
+                                    103.863597,
+                                    1.38958
+                                ]
+                            },
+                            "weight": 37.6,
+                            "distance": 474.8,
+                            "name": "Yio Chu Kang Road"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.859479,
+                                        1.39071
+                                    ],
+                                    "bearings": [
+                                        105,
+                                        270,
+                                        285
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true
+                                    ],
+                                    "in": 0
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 2,
+                                    "location": [
+                                        103.858521,
+                                        1.389851
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        15,
+                                        180
+                                    ],
+                                    "entry": [
+                                        false,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.859479,
+                                        1.39071
+                                    ],
+                                    [
+                                        103.859169,
+                                        1.390693
+                                    ],
+                                    [
+                                        103.859021,
+                                        1.390669
+                                    ],
+                                    [
+                                        103.858889,
+                                        1.390596
+                                    ],
+                                    [
+                                        103.858714,
+                                        1.390423
+                                    ],
+                                    [
+                                        103.858612,
+                                        1.390227
+                                    ],
+                                    [
+                                        103.858521,
+                                        1.389851
+                                    ],
+                                    [
+                                        103.858498,
+                                        1.389697
+                                    ],
+                                    [
+                                        103.858476,
+                                        1.38938
+                                    ],
+                                    [
+                                        103.858464,
+                                        1.38748
+                                    ],
+                                    [
+                                        103.858426,
+                                        1.387381
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "destinations": "CTE: City",
+                            "duration": 35,
+                            "maneuver": {
+                                "bearing_after": 264,
+                                "type": "on ramp",
+                                "modifier": "slight left",
+                                "bearing_before": 285,
+                                "location": [
+                                    103.859479,
+                                    1.39071
+                                ]
+                            },
+                            "weight": 35,
+                            "distance": 438.7,
+                            "name": ""
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.858426,
+                                        1.387381
+                                    ],
+                                    "bearings": [
+                                        1,
+                                        181,
+                                        355
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 0
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "lanes": [
+                                        {
+                                            "valid": false,
+                                            "indications": [
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight",
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 2,
+                                    "location": [
+                                        103.858411,
+                                        1.379303
+                                    ],
+                                    "bearings": [
+                                        1,
+                                        175,
+                                        180
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true
+                                    ],
+                                    "in": 0
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.860508,
+                                        1.371452
+                                    ],
+                                    "bearings": [
+                                        165,
+                                        330,
+                                        345
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 1
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 2,
+                                    "location": [
+                                        103.859904,
+                                        1.364798
+                                    ],
+                                    "bearings": [
+                                        15,
+                                        30,
+                                        195
+                                    ],
+                                    "entry": [
+                                        false,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 0
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "lanes": [
+                                        {
+                                            "valid": false,
+                                            "indications": [
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight",
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 2,
+                                    "location": [
+                                        103.857587,
+                                        1.358148
+                                    ],
+                                    "bearings": [
+                                        15,
+                                        180,
+                                        210
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true
+                                    ],
+                                    "in": 0
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.857455,
+                                        1.352096
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        165,
+                                        345
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "classes": [
+                                        "toll",
+                                        "motorway"
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.859038,
+                                        1.347541
+                                    ],
+                                    "bearings": [
+                                        165,
+                                        345
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.858426,
+                                        1.387381
+                                    ],
+                                    [
+                                        103.858416,
+                                        1.386524
+                                    ],
+                                    [
+                                        103.858425,
+                                        1.38549
+                                    ],
+                                    [
+                                        103.858454,
+                                        1.384617
+                                    ],
+                                    [
+                                        103.858463,
+                                        1.383741
+                                    ],
+                                    [
+                                        103.858438,
+                                        1.381648
+                                    ],
+                                    [
+                                        103.858436,
+                                        1.381522
+                                    ],
+                                    [
+                                        103.858411,
+                                        1.379303
+                                    ],
+                                    [
+                                        103.858411,
+                                        1.378408
+                                    ],
+                                    [
+                                        103.85846,
+                                        1.377646
+                                    ],
+                                    [
+                                        103.858505,
+                                        1.377086
+                                    ],
+                                    [
+                                        103.858559,
+                                        1.376773
+                                    ],
+                                    [
+                                        103.858623,
+                                        1.376442
+                                    ],
+                                    [
+                                        103.858711,
+                                        1.376042
+                                    ],
+                                    [
+                                        103.859027,
+                                        1.374964
+                                    ],
+                                    [
+                                        103.859319,
+                                        1.374055
+                                    ],
+                                    [
+                                        103.859699,
+                                        1.373183
+                                    ],
+                                    [
+                                        103.860508,
+                                        1.371452
+                                    ],
+                                    [
+                                        103.860687,
+                                        1.370925
+                                    ],
+                                    [
+                                        103.860821,
+                                        1.37046
+                                    ],
+                                    [
+                                        103.860905,
+                                        1.370041
+                                    ],
+                                    [
+                                        103.860964,
+                                        1.369653
+                                    ],
+                                    [
+                                        103.860988,
+                                        1.369339
+                                    ],
+                                    [
+                                        103.860999,
+                                        1.368899
+                                    ],
+                                    [
+                                        103.860982,
+                                        1.368527
+                                    ],
+                                    [
+                                        103.860951,
+                                        1.368187
+                                    ],
+                                    [
+                                        103.860892,
+                                        1.367839
+                                    ],
+                                    [
+                                        103.8608,
+                                        1.367485
+                                    ],
+                                    [
+                                        103.860693,
+                                        1.367123
+                                    ],
+                                    [
+                                        103.86057,
+                                        1.366766
+                                    ],
+                                    [
+                                        103.860161,
+                                        1.365568
+                                    ],
+                                    [
+                                        103.859904,
+                                        1.364798
+                                    ],
+                                    [
+                                        103.859153,
+                                        1.362798
+                                    ],
+                                    [
+                                        103.858907,
+                                        1.362082
+                                    ],
+                                    [
+                                        103.858027,
+                                        1.359511
+                                    ],
+                                    [
+                                        103.857587,
+                                        1.358148
+                                    ],
+                                    [
+                                        103.85753,
+                                        1.35801
+                                    ],
+                                    [
+                                        103.857324,
+                                        1.35755
+                                    ],
+                                    [
+                                        103.857215,
+                                        1.3572
+                                    ],
+                                    [
+                                        103.857142,
+                                        1.356906
+                                    ],
+                                    [
+                                        103.857076,
+                                        1.356584
+                                    ],
+                                    [
+                                        103.856961,
+                                        1.355927
+                                    ],
+                                    [
+                                        103.856909,
+                                        1.354943
+                                    ],
+                                    [
+                                        103.857086,
+                                        1.353372
+                                    ],
+                                    [
+                                        103.857455,
+                                        1.352096
+                                    ],
+                                    [
+                                        103.857725,
+                                        1.351243
+                                    ],
+                                    [
+                                        103.85826,
+                                        1.349759
+                                    ],
+                                    [
+                                        103.858341,
+                                        1.349518
+                                    ],
+                                    [
+                                        103.858603,
+                                        1.348738
+                                    ],
+                                    [
+                                        103.859038,
+                                        1.347541
+                                    ],
+                                    [
+                                        103.859164,
+                                        1.347214
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 231.5,
+                            "maneuver": {
+                                "bearing_after": 180,
+                                "type": "merge",
+                                "modifier": "slight right",
+                                "bearing_before": 180,
+                                "location": [
+                                    103.858426,
+                                    1.387381
+                                ]
+                            },
+                            "ref": "CTE",
+                            "weight": 231.5,
+                            "distance": 4628.5,
+                            "name": "Central Expressway"
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "lanes": [
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": false,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": false,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": false,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": false,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.859164,
+                                        1.347214
+                                    ],
+                                    "bearings": [
+                                        150,
+                                        165,
+                                        345
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "lanes": [
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight",
+                                                "left"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        },
+                                        {
+                                            "valid": true,
+                                            "indications": [
+                                                "straight"
+                                            ]
+                                        }
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.860212,
+                                        1.34501
+                                    ],
+                                    "bearings": [
+                                        90,
+                                        135,
+                                        330
+                                    ],
+                                    "entry": [
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.860337,
+                                        1.344866
+                                    ],
+                                    "bearings": [
+                                        30,
+                                        150,
+                                        195,
+                                        315
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 3
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.859164,
+                                        1.347214
+                                    ],
+                                    [
+                                        103.85921,
+                                        1.34717
+                                    ],
+                                    [
+                                        103.85923,
+                                        1.347149
+                                    ],
+                                    [
+                                        103.859254,
+                                        1.34712
+                                    ],
+                                    [
+                                        103.859269,
+                                        1.347096
+                                    ],
+                                    [
+                                        103.859456,
+                                        1.346659
+                                    ],
+                                    [
+                                        103.859828,
+                                        1.34576
+                                    ],
+                                    [
+                                        103.860212,
+                                        1.34501
+                                    ],
+                                    [
+                                        103.860337,
+                                        1.344866
+                                    ],
+                                    [
+                                        103.860448,
+                                        1.344679
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "destinations": "Braddell Road",
+                            "duration": 28.6,
+                            "maneuver": {
+                                "bearing_after": 156,
+                                "type": "off ramp",
+                                "modifier": "slight left",
+                                "bearing_before": 158,
+                                "location": [
+                                    103.859164,
+                                    1.347214
+                                ]
+                            },
+                            "weight": 28.6,
+                            "distance": 317.8,
+                            "name": ""
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.860448,
+                                        1.344679
+                                    ],
+                                    "bearings": [
+                                        30,
+                                        135,
+                                        165,
+                                        330
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 3
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 1,
+                                    "location": [
+                                        103.860604,
+                                        1.344528
+                                    ],
+                                    "bearings": [
+                                        0,
+                                        165,
+                                        315
+                                    ],
+                                    "entry": [
+                                        false,
+                                        true,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.860968,
+                                        1.343603
+                                    ],
+                                    "bearings": [
+                                        90,
+                                        285,
+                                        315
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.861165,
+                                        1.343582
+                                    ],
+                                    "bearings": [
+                                        90,
+                                        255,
+                                        270
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        false
+                                    ],
+                                    "in": 2
+                                },
+                                {
+                                    "classes": [
+                                        "motorway"
+                                    ],
+                                    "out": 0,
+                                    "location": [
+                                        103.86142,
+                                        1.343609
+                                    ],
+                                    "bearings": [
+                                        90,
+                                        270,
+                                        345
+                                    ],
+                                    "entry": [
+                                        true,
+                                        false,
+                                        true
+                                    ],
+                                    "in": 1
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.860448,
+                                        1.344679
+                                    ],
+                                    [
+                                        103.860534,
+                                        1.344607
+                                    ],
+                                    [
+                                        103.860566,
+                                        1.344583
+                                    ],
+                                    [
+                                        103.860604,
+                                        1.344528
+                                    ],
+                                    [
+                                        103.860753,
+                                        1.343888
+                                    ],
+                                    [
+                                        103.860776,
+                                        1.343825
+                                    ],
+                                    [
+                                        103.860794,
+                                        1.343783
+                                    ],
+                                    [
+                                        103.860806,
+                                        1.34376
+                                    ],
+                                    [
+                                        103.860822,
+                                        1.343728
+                                    ],
+                                    [
+                                        103.86087,
+                                        1.343693
+                                    ],
+                                    [
+                                        103.860889,
+                                        1.343672
+                                    ],
+                                    [
+                                        103.860908,
+                                        1.343655
+                                    ],
+                                    [
+                                        103.860922,
+                                        1.343638
+                                    ],
+                                    [
+                                        103.860968,
+                                        1.343603
+                                    ],
+                                    [
+                                        103.861165,
+                                        1.343582
+                                    ],
+                                    [
+                                        103.86142,
+                                        1.343609
+                                    ],
+                                    [
+                                        103.861779,
+                                        1.343643
+                                    ],
+                                    [
+                                        103.862051,
+                                        1.34369
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "duration": 20.4,
+                            "maneuver": {
+                                "bearing_after": 133,
+                                "type": "turn",
+                                "modifier": "straight",
+                                "bearing_before": 149,
+                                "location": [
+                                    103.860448,
+                                    1.344679
+                                ]
+                            },
+                            "weight": 20.4,
+                            "distance": 259.7,
+                            "name": ""
+                        },
+                        {
+                            "intersections": [
+                                {
+                                    "in": 0,
+                                    "entry": [
+                                        true
+                                    ],
+                                    "bearings": [
+                                        260
+                                    ],
+                                    "location": [
+                                        103.862051,
+                                        1.34369
+                                    ]
+                                }
+                            ],
+                            "driving_side": "right",
+                            "geometry": {
+                                "coordinates": [
+                                    [
+                                        103.862051,
+                                        1.34369
+                                    ],
+                                    [
+                                        103.862051,
+                                        1.34369
+                                    ]
+                                ],
+                                "type": "LineString"
+                            },
+                            "mode": "driving",
+                            "destinations": "Upper Serangoon Road",
+                            "duration": 0,
+                            "maneuver": {
+                                "bearing_after": 0,
+                                "type": "arrive",
+                                "modifier": "left",
+                                "bearing_before": 80,
+                                "location": [
+                                    103.862051,
+                                    1.34369
+                                ]
+                            },
+                            "weight": 0,
+                            "distance": 0,
+                            "name": ""
+                        }
+                    ],
+                    "distance": 7266.9,
+                    "duration": 503.9,
+                    "summary": "Mimosa Road, Central Expressway",
+                    "weight": 503.9
+                }
+            ],
+            "distance": 7266.9,
+            "duration": 503.9,
+            "weight_name": "routability",
+            "weight": 503.9
+        }
+    ],
+    "waypoints": [
+        {
+            "hint": "z6wNgBKtDYAEAAAAhwAAAKIAAAAmAAAAEP1IQImjuUIJz99CeDzUQQQAAACHAAAAogAAACYAAABsCwAA6McwBrUZFQDnyDAGxhgVAAIAvwL08Hgl",
+            "distance": 38.777149,
+            "name": "Mimosa Vale",
+            "location": [
+                103.8602,
+                1.382837
+            ]
+        },
+        {
+            "hint": "DQQBgP___38TAAAAJAAAACAAAABAAAAAS7b1QfGv0EEchSBCPHDIQhMAAAAkAAAAIAAAAEAAAABsCwAAI88wBsqAFADwzjAG8YEUAAEADwX08Hgl",
+            "distance": 33.107664,
+            "name": "",
+            "location": [
+                103.862051,
+                1.34369
+            ]
+        }
+    ]
+}
